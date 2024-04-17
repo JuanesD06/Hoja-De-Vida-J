@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css">
+    <ul>
+      <li><a href="">Inicio</a></li>
+      <li><a href="quien-soy.html">Quien Soy</a></li>
+      <li><a href="mis-proyectos.html">Mis Proyectos</a></li>
+      <li><a href="estudios.html">Estudios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+    <h1>Bienvenido a mi webpage</h1>
+    <p>Este es un ejemplo de una webpage con un menu de navegacion en la parte superior de la pagina.</p>
+
+
+    <script>
+      document.querySelector('a[href=""]').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = 'index.html';
+      });
+    </script>
+
+  </body>
+</html>
