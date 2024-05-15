@@ -1,0 +1,10 @@
+body {
+    background-image: url('img/atardecer-en-la-playa-arte-digital_3840x2160_xtrafondos.com.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    animation: fade-in 1s ease-in-out;
+  }
+  
